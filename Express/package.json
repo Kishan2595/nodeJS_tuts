@@ -1,7 +1,7 @@
 {
-  "name": "nodejs",
+  "name": "user_authentication",
   "version": "1.0.0",
-  "description": "Node Tutorial",
+  "description": "login and logout api using Express framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,16 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Kishan2595/nodeJS_tuts.git"
   },
-  "author": "Kishan Kumar Singh",
+  "author": "Kishan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kishan2595/nodeJS_tuts/issues"
   },
   "homepage": "https://github.com/Kishan2595/nodeJS_tuts#readme",
   "dependencies": {
-    "uuid": "^8.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+    "express": "^4.17.1"
   }
 }

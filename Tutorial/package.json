@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishan2595/nodeJS_tuts.git"
+  },
+  "author": "Kishan Kumar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kishan2595/nodeJS_tuts/issues"
+  },
+  "homepage": "https://github.com/Kishan2595/nodeJS_tuts#readme",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
