@@ -1,6 +1,6 @@
-
 const express = require("express");
 const app = express();
+const { pool } = require("./dbConfig");
 
 const PORT = process.env.PORT || 3000;
 
@@ -26,10 +26,10 @@ app.get("/users/dashboard", (req, res) => {
 });
 
 app.get("/users/logout", (req, res) => {
-req.logout();
-res.render("index", { message: "You have logged out successfully" });
+    req.logout();
+    res.render("index", { message: "You have logged out successfully" });
 });
 
 app.listen(PORT, () => {
-console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
